@@ -8,7 +8,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	color: #dba828;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -55,6 +55,7 @@ p {
 	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
 	text-align: justify;
 	font-size: 16px;
+	margin-bottom: -6px;
 }
 
 p.text {
