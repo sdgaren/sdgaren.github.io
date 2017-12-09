@@ -19,6 +19,23 @@ div.body {
 	margin: 0 auto;
 	margin-top: 10px;
 	margin-bottom: 60px;
+	border: 1px solid black;
+}
+
+div.iconimage {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.icontext {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+div.icongroup {
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 div.hr {
@@ -29,10 +46,19 @@ div.hr {
 	margin-bottom: 30px;
 }
 
+
 p {
 	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
 	padding: 0px;
 	margin: 0px;
+}
+
+p.iconlabel {
+	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
+	text-align: left;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
 
 p.title {
@@ -66,7 +92,7 @@ p.toc {
 }
 
 p.name {	
-	text-align: justify;
+	text-align: left;
 	font-size: 16px;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -118,3 +144,10 @@ img.logo {
 	width: 60px;
 	margin: 0px;
 }
+
+img.iconimage {
+	max-width: 90px;
+	max-height: 90px;
+}
+
+
