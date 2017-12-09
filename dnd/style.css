@@ -82,6 +82,16 @@ p.sectiontitle {
 	margin-bottom: 60px;
 }
 
+p.sectionsubtitle {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: -54px;
+	margin-bottom: 60px;
+}
+
 p.text {
 	text-align: justify;
 	font-size: 16px;
@@ -89,6 +99,7 @@ p.text {
 }
 
 p.toc {
+	text-align: left;
 }
 
 p.name {	
