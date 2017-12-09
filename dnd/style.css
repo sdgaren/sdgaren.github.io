@@ -56,14 +56,6 @@ p.sectiontitle {
 	margin-bottom: 60px;
 }
 
-p.iconlabel {
-	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
-	text-align: center;
-	font-size: 16px;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-}
-
 p.text {
 	text-align: justify;
 	font-size: 16px;
@@ -125,9 +117,4 @@ img.logo {
 	height: 60px;
 	width: 60px;
 	margin: 0px;
-}
-
-img.iconimage {
-	max-width: 120px;
-	max-height: 120px;
 }
