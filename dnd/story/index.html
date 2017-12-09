@@ -51,7 +51,20 @@
 			<p class="text">Along another side passage the group sneaks up to an illuminated passage and finds another cavern, this one filled with boxes and crates. Also inside are a handful of goblins, a wolf, and what appears to be a 7-foot-tall patchwork humanoid who is busying himself examining the map and congratulating himself on having captured it. The group leans this creature’s name is Klarg. Thinking quickly, Esmerelda casts a spell to snag the map from Klarg’s hands, and suprised, it slips from his grasp and into Esmerelda’s. The group fights off the goblins and Klarg, successfully defeating them. In the fray, Duff rediscovers his commitment to pacifism and leaves Klarg wounded and unconscious, but alive. Noda attempts to earn a pet out of the wolf, but is violently rebuked.</p>
 			<p class="text">The group examines the crates and boxes in Klarg’s cavern and spotting the same logo as on the crates they themselves were delivering, become suspicious that Gundren may know more than he is letting on. Gundren is awoken and grateful for the rescue, he confesses that a number of previous shipments of supplies had also been intercepted before reaching Nashkel. The group concludes that someone other than Gundren knows about the map, and that this someone clearly envies it.</p>
 			
-			
+			<p class="text">
+				<?php
+
+					$f = fopen("test.txt", "r");
+
+					// Read line by line until end of file
+					while(!feof($f)) { 
+					    echo fgets($f) . "<br />";
+					}
+
+					fclose($f);
+
+				?>
+			</p>
 			
 			
 		</div>
