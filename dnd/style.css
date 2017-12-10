@@ -24,12 +24,16 @@ div.body {
 div.iconimage {
 	display: table-cell;
 	vertical-align: middle;
+	text-align: center;
+	background-color: #3c3c3a;
+	width: 90px;
+	height: 90px;
 }
 
 div.icontext {
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 
 div.icongroup {
@@ -58,7 +62,7 @@ p.iconlabel {
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: -6px;
+	margin-top: 0px;
 }
 
 p.title {
@@ -89,17 +93,17 @@ p.sectionsubtitle {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-top: -54px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 p.text {
 	text-align: justify;
 	font-size: 16px;
-	margin-bottom: 6px;
-}
-
-p.toc {
-	text-align: left;
+	margin-bottom: 12px;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 p.name {	
@@ -141,15 +145,6 @@ span.emphasis {
 	letter-spacing: 2px;
 }
 
-table.icongroup {
-	border-spacing: 20px;
-}
-
-td.icon {
-	width: 33%;
-	vertical-align: top;
-}
-
 img.logo {
 	height: 60px;
 	width: 60px;
@@ -157,8 +152,8 @@ img.logo {
 }
 
 img.iconimage {
-	max-width: 90px;
-	max-height: 90px;
+	max-width: 65px;
+	max-height: 65px;
 }
 
 
