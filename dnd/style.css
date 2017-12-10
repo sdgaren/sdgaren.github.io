@@ -58,6 +58,7 @@ p.iconlabel {
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	margin-top: -6px;
 }
 
 p.title {
