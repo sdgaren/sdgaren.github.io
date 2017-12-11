@@ -33,7 +33,7 @@ div.iconimage {
 div.icontext {
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
 div.icongroup {
@@ -135,6 +135,10 @@ li {
 	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
 	text-align: justify;
 	font-size: 16px;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 span.emphasis {
