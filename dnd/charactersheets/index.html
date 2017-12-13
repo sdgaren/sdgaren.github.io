@@ -14,10 +14,51 @@
 	<style type="text/css">
 		
 		table.charstats {
-			border: 1px solid black;
 			width: 100%;
+			border-spacing: 5px;
+			margin-left: -5px;
+			margin-right: -5px;
 		}
 		
+		tr {
+			border: 1px solid black;
+		}
+		
+		td {
+			border: 1px solid black;
+			width: 16%;
+			padding: 5px;
+		}
+		
+		p.charstatsleft {
+			text-align: left;
+		}
+		
+		p.labelsmallleft {
+			text-align: left;
+			font-size: 11px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		
+		p.labelsmallcenter {
+			font-size: 11px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		
+		p.skill {
+			text-align: left;
+		}
+		
+		img.checkbox {
+			width: 15px;
+			height: 15px;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
 		
 	</style>
 	
@@ -86,7 +127,7 @@
 				</a>
 			</div>
 			
-			<div class="icongroup">
+			<!--<div class="icongroup">
 				<a href="story/index.html">
 					<div class="iconimage">
 						<img src="noda.png" class="iconimage"/>
@@ -97,7 +138,7 @@
 						</p>
 					</div>
 				</a>
-			</div>
+			</div>-->
 			
 			<div class="icongroup">
 				<a href="story/index.html">
@@ -128,55 +169,210 @@
 			<div class="charsheet">
 				<table class="charstats">
 					<tr class="charstats">
-						<td>
-							<p class="charstats">
-								18
+						<td colspan=2>
+							<p class="charstatsleft">
+								Deige Stonewall
 							</p>
-							<p class="charstats">
-								+3
-							</p>
-						</td>
-						<td>
-							<p class="charstats">
-								18
-							</p>
-							<p class="charstats">
-								+3
+							<p class="labelsmallleft">
+								Name
 							</p>
 						</td>
-						<td>
-							<p class="charstats">
-								18
+						<td colspan=2>
+							<p class="charstatsleft">
+								Mountain Dwarf
 							</p>
-							<p class="charstats">
-								+3
-							</p>
-						</td>
-						<td>
-							<p class="charstats">
-								18
-							</p>
-							<p class="charstats">
-								+3
+							<p class="labelsmallleft">
+								Race
 							</p>
 						</td>
-						<td>
-							<p class="charstats">
-								18
+						<td colspan=2>
+							<p class="charstatsleft">
+								Paladin 4
 							</p>
-							<p class="charstats">
-								+3
-							</p>
-						</td>
-						<td>
-							<p class="charstats">
-								18
-							</p>
-							<p class="charstats">
-								+3
+							<p class="labelsmallleft">
+								Class &amp Level
 							</p>
 						</td>
 					</tr>
+										
+					<tr class="charstats">
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								STR
+							</p>
+						</td>
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								DEX
+							</p>
+						</td>
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								CON
+							</p>
+						</td>
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								INT
+							</p>
+						</td>
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								WIS
+							</p>
+						</td>
+						<td>
+							<p class="charstatscenter">
+								18
+							</p>
+							<p class="charstatscenter">
+								+3
+							</p>
+							<p class="labelsmallcenter">
+								CHA
+							</p>
+						</td>
+					</tr>
+					
+					<tr class="charstats">
+						<td colspan=3>
+							<p class="charstatscenter">
+								+2
+							</p>
+							<p class="labelsmallcenter">
+								Proficiency Bonus
+							</p>
+						</td>
+						<td colspan=3>
+							<p class="charstatscenter">
+								13
+							</p>
+							<p class="labelsmallcenter">
+								Passive Perception
+							</p>
+						</td>
+					</tr>
+					
+					<tr class="charstats">
+						<td colspan=6>
+							<div style="display: inline-block;">
+							
+							
+								<p class="labelsmallcenter">
+									Saving Throws
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxfull.png">+5 Strength
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxempty.png">+5 Dexterity
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxempty.png">+5 Constitution
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxempty.png">+5 Intelligence
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxempty.png">+5 Wisdom
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxplaceholder.png"><img class="checkbox" src="checkboxempty.png">+5 Charisma
+								</p>
+								
+								<br><br>
+								
+								<p class="labelsmallcenter">
+									Skills
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Acrobatics (DEX)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Animal Handling (WIS)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Arcana (INT)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Athletics (STR)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Deception (CHA)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 History (INT)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Insight (WIS)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Intimidation (CHA)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Investigation (INT)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Medicine (WIS)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Nature (INT)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Perception (WIS)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Performance (CHA)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Persuasion (CHA)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Religion (INT)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Sleight of Hand (DEX)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Stealth (DEX)
+								</p>
+								<p class="skill">
+									<img class="checkbox" src="checkboxempty.png"><img class="checkbox" src="checkboxempty.png">+5 Survival (DEX)
+								</p>
+														
+							</div>
+					
+					
 				</table>
 			
 		</div>
