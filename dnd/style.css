@@ -82,7 +82,6 @@ p.sectiontitle {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	margin-top: 120px;
 	margin-bottom: 60px;
 }
 
@@ -112,6 +111,7 @@ p.name {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	margin-top: 50px;
 	margin-bottom: 6px;
 }
 
@@ -129,6 +129,21 @@ p.price {
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+p.listheading {
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 24px;
+	margin-bottom: 6px;
+}
+
+p.toc {
+	text-align: left;
+	margin-bottom: 6px;
 }
 
 li {
