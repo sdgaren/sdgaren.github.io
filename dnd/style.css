@@ -1,10 +1,10 @@
 a:link, a:visited {
-	color: #000000;
+	color: #aa6e00;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #000000;
+	color: #d4af6b;
 	text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ p.sectiontitle {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
 p.sectionsubtitle {
@@ -91,7 +91,7 @@ p.sectionsubtitle {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: -54px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 }
 
