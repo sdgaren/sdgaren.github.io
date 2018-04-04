@@ -175,4 +175,13 @@ img.iconimage {
 	max-height: 60px;
 }
 
+img.iconright {
+	float: right;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-bottom: 25px;;
+	max-width: 60px;
+	max-height: 60px;
+}
+
 
