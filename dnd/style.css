@@ -1,5 +1,13 @@
+/* Color Scheme:
+Gold:     #d4af6b
+Bronze:   #9c6b0f
+Grey:     #bcb8ad
+Charcoal: #3c3b39
+Beige:    #a19080
+*/
+
 a:link, a:visited {
-	color: #aa6e00;
+	color: #3c3b39;
 	text-decoration: none;
 }
 
@@ -11,6 +19,9 @@ a:hover, a:active {
 body {
 	margin: 0px;
 	text-align: center;
+}
+
+div.anchor {
 }
 
 div.body {
@@ -54,6 +65,18 @@ p {
 	font-family: "Baskerville", "Times", "Times New Roman", "Serif";
 	padding: 0px;
 	margin: 0px;
+}
+
+p.blockquote {
+	text-align: justify;
+	font-size: 16px;
+	margin-bottom: 12px;
+	margin-left: 50px;
+	margin-right: 50px;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 p.iconlabel {
@@ -111,7 +134,7 @@ p.name {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: 50px;
+	margin-top: 65px;
 	margin-bottom: 6px;
 }
 
@@ -144,6 +167,8 @@ p.listheading {
 p.toc {
 	text-align: left;
 	margin-bottom: 6px;
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
 }
 
 li {
@@ -177,9 +202,9 @@ img.iconimage {
 
 img.iconright {
 	float: right;
-	margin-top: 30px;
+	margin-top: 45px;
 	margin-left: 25px;
-	margin-bottom: 25px;;
+	margin-bottom: 15px;;
 	max-width: 60px;
 	max-height: 60px;
 }
