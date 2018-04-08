@@ -32,6 +32,11 @@ div.body {
 	margin-bottom: 60px;
 }
 
+div.columns {
+	column-count: 3;
+	column-width: 150px;
+}
+
 div.iconimage {
 	display: table-cell;
 	vertical-align: middle;
