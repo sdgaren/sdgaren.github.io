@@ -1,2 +1,0 @@
-# sdgaren.github.io
-Website
