@@ -58,23 +58,20 @@
 		div.groupimg {
 			float: left;
 			overflow: hidden;
-			display: table-cell;
 			margin-right: 30px;
 			width: 20%;
-			border: 1px solid red;
+			max-width: 100px;
 		}
 
 		div.grouptext {
 			overflow: hidden;
-			display: table-cell;
-			border: 1px solid blue;
 		}
 
 		div.imgtextgroup {
 			max-width: 800px;
 			width: 100%;
 			margin: 0 auto;;
-			margin-bottom: 45px;
+			margin-bottom: 30px;
 			overflow: hidden;
 			display: table;
 		}
@@ -93,11 +90,21 @@
 		
 		img.logo {
 			width: 100%;
+			margin-top: 3px;
+		}
+		
+		img.selfie {
+			float: right;
+			height: auto;
+			width: 33%;
+			max-width: 230px;
+			margin-left: 30px;
+			margin-bottom: 30px;
 		}
 		
 		p {
 			font-family: baskerville;
-			font-size: 16px;
+			font-size: 14px;
 			margin: 0;
 			margin-bottom: 6px;
 			text-align: justify;
@@ -112,7 +119,7 @@
 			text-align: left;
 			text-transform: uppercase;
 			color: white;
-			letter-spacing: 3px;
+			letter-spacing: 2px;
 			margin-bottom: 30px;
 		}
 		
@@ -145,18 +152,6 @@
 			letter-spacing: 4px;
 		}
 		
-		table, tr, td {
-			vertical-align: top;
-			border: 1px solid black;
-			border-spacing: 30px;
-			margin: -30px;
-		}
-		
-		td.logo {
-			max-width: 100px;
-		}
-		
-		
 	</style>
 </head>
 
@@ -167,51 +162,22 @@
 	</div>
 	
 	<div class="section">
-		
-		<p class="sectionheading">About Me</p>
-		
 		<div class="imgtextgroup">
-			<div class="groupimg">
-				<img src="sam.png" style="width: 230px;"/>
-			</div>
-			<div class="grouptext" style="vertical-align: middle;">
-				<p class="text">I am a senior project lead based in Portland, Oregon. At my current position with Epiq Global, I lead programs to help individuals recover damages due to large-scale, systematic banking fraud. Since 2015, the projects I lead have helped more than 200,000 individuals and businesses worldwide recover damages of over $&frac14; billion USD.</p>
-				<p class="text">I believe that as designers, leaders, and consumers we have an obligation to produce work and consume products that uphold the highest standards of ethics, sustainability, efficiency, long-term utility, and quality. As everything we do consumes resources, it is incumbent upon us to reduce these demands and to produce the most value for the world from what we do consume. It is my hope that, at least in some small way, my work each day upholds these standards.</p>
-			</div>
+			<p class="sectionheading">About Me</p>
+			<img src="sam.png" class="selfie"/>
+			<p>I am a senior project lead based in Portland, Oregon. At my current position with Epiq Global, I lead programs to help individuals recover damages due to large-scale, systematic banking fraud. Since 2015, the projects I lead have helped more than 200,000 individuals and businesses worldwide recover damages of over $&frac14; billion USD.</p>
+			<p>I believe that as designers, leaders, and consumers we have an obligation to produce work and consume products that uphold the highest standards of ethics, sustainability, efficiency, long-term utility, and quality. As everything we do consumes resources, it is incumbent upon us to reduce these demands and to produce the most value for the world from what we do consume. It is my hope that, at least in some small way, my work each day upholds these standards.</p>
 		</div>
-		
 	</div>
 	<div class="section">
 		
 		<p class="sectionheading">Experience</p>
 		
-		<table>
-			<tr>
-				<td class="logo">
-					<img src="logo_epiq.png" class="logo"/>
-				</td>
-				<td>
-					<p class="employer">Epiq Global</p>
-					<p class="title">Senior Project Lead<p>
-					<p class="dates">March 2018&ndash;Present</p>
-					<div style="clear: both;"></div>
-					<p class="title">Project Lead</p>
-					<p class="dates">September 2016&ndash;March 2018</p>
-					<div style="clear: both;"></div>
-					<p class="title">Project Coordinator</p>
-					<p class="dates">October 2015&ndash;September 2016</p>
-					<div style="clear: both;"></div>
-					<p class="text">At Epiq, I lead multiple simultaneous projects to assist with recovery of damages related to banking fraud. Operating under intense regulatory and media scrutiny, these programs have successfully helped more than 200,000 account holders recover funds, while assisting auditors with identifying patterns and potential additional areas of concern. These projects are among the most sophisticated the company handles, each project earning Epiq between $1 million and $10 million annually.</p>
-				</td>
-			</tr>
-		</table>
-		
-		
 		<div class="imgtextgroup">
 			<div class="groupimg">
-				<img src="logo_epiq.png" class="logo"/>
+				<img src="logo_epiq.png" class="logo">
 			</div>
-			<div class="grouptext" style="vertical-align: middle;">
+			<div class="grouptext">
 				<p class="employer">Epiq Global</p>
 				<p class="title">Senior Project Lead<p>
 				<p class="dates">March 2018&ndash;Present</p>
@@ -228,9 +194,9 @@
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
-				<img src="logo_pge.png" class="logo"/>
+				<img src="logo_pge.png" class="logo">
 			</div>
-			<div class="grouptext" style="vertical-align: middle;">
+			<div class="grouptext">
 				<p class="employer">Portland General Electric</p>
 				<p class="title">Operations and Analytics Consultant<p>
 				<p class="dates">April 2014&ndash;Present</p>
@@ -241,9 +207,9 @@
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
-				<img src="logo_psu.png" class="logo"/>
+				<img src="logo_psu.png" class="logo">
 			</div>
-			<div class="grouptext" style="vertical-align: middle;">
+			<div class="grouptext">
 				<p class="employer">Portland State University</p>
 				<p class="title">Graduate Teaching Assistant<p>
 				<p class="dates">September 2012&ndash;March 2014</p>
@@ -254,9 +220,9 @@
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
-				<img src="logo_gcc.png" class="logo"/>
+				<img src="logo_gcc.png" class="logo">
 			</div>
-			<div class="grouptext" style="vertical-align: middle;">
+			<div class="grouptext">
 				<p class="employer">The Green Car Company</p>
 				<p class="title">Service Writer<p>
 				<p class="dates">April 2006&ndash;May 2007</p>
