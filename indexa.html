@@ -60,12 +60,14 @@
 			overflow: hidden;
 			display: table-cell;
 			margin-right: 30px;
+			width: 20%;
+			border: 1px solid red;
 		}
 
 		div.grouptext {
 			overflow: hidden;
 			display: table-cell;
-			width: 100%;
+			border: 1px solid blue;
 		}
 
 		div.imgtextgroup {
@@ -79,10 +81,7 @@
 		
 		div.section {
 			text-align: center;
-			padding-top: 30px;
-			padding-left: 45px;
-			padding-right: 45px;
-			padding-bottom: 30px;
+			padding: 30px;
 		}
 		
 		img.contacticon {
@@ -93,7 +92,7 @@
 		}
 		
 		img.logo {
-			width: 100px;
+			width: 100%;
 		}
 		
 		p {
@@ -145,6 +144,19 @@
 			text-transform: uppercase;
 			letter-spacing: 4px;
 		}
+		
+		table, tr, td {
+			vertical-align: top;
+			border: 1px solid black;
+			border-spacing: 30px;
+			margin: -30px;
+		}
+		
+		td.logo {
+			max-width: 100px;
+		}
+		
+		
 	</style>
 </head>
 
@@ -172,6 +184,28 @@
 	<div class="section">
 		
 		<p class="sectionheading">Experience</p>
+		
+		<table>
+			<tr>
+				<td class="logo">
+					<img src="logo_epiq.png" class="logo"/>
+				</td>
+				<td>
+					<p class="employer">Epiq Global</p>
+					<p class="title">Senior Project Lead<p>
+					<p class="dates">March 2018&ndash;Present</p>
+					<div style="clear: both;"></div>
+					<p class="title">Project Lead</p>
+					<p class="dates">September 2016&ndash;March 2018</p>
+					<div style="clear: both;"></div>
+					<p class="title">Project Coordinator</p>
+					<p class="dates">October 2015&ndash;September 2016</p>
+					<div style="clear: both;"></div>
+					<p class="text">At Epiq, I lead multiple simultaneous projects to assist with recovery of damages related to banking fraud. Operating under intense regulatory and media scrutiny, these programs have successfully helped more than 200,000 account holders recover funds, while assisting auditors with identifying patterns and potential additional areas of concern. These projects are among the most sophisticated the company handles, each project earning Epiq between $1 million and $10 million annually.</p>
+				</td>
+			</tr>
+		</table>
+		
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
