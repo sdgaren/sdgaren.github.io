@@ -1,3 +1,18 @@
+@font-face {
+	font-family: jenson
+	src: local(jenson), url(http://www.samuelgaren.com/dnd/jenson.ttf);
+}
+
+@font-face {
+	font-family: jensonitalic;
+	src: local(jensonitalic), url(http://www.samuelgaren.com/dnd/jensonitalic.ttf);
+}
+
+@font-face {
+	font-family: jensonbold;
+	src: local(jensonbold), url(http://www.samuelgaren.com/dnd/jensonbold.ttf);
+}
+
 a:link, a:visited {
 	color: #3c3b39;
 	text-decoration: none;
