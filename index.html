@@ -6,12 +6,7 @@
 		Samuel Garen | Résumé
 	</title>
 	
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	
-	<style type="text/css">
+	<style>
 		@font-face {
 			font-family: futuralt;
 			src: local(futuralt), url("futuralt.ttf");
@@ -20,6 +15,11 @@
 		@font-face {
 			font-family: baskerville;
 			src: local(baskerville), url("baskerville.ttf");
+		}
+		
+		@font-face{
+			font-family: baskervilleitalic;
+			src: local(baskervilleitalic), url("baskervilleitalic.ttf");
 		}
 		
 		a {
@@ -39,24 +39,27 @@
 			display: table;
 			max-width: 800px;
 			margin: 0 auto;
-			opacity: 0.6;
+			opacity: 0.75;
 		}
 		
 		div.header {
 			width: 100%;
-			height: 300px;
+			height: 200px;
+			display: table;
+			background: #444444;
 			background-image: url("background.jpg");
 			background-size: cover;
 			background-position: center;
 		}
 		
 		div.headertext {
-			width: 100%;
-			height: 100%;
-			background-image: url("title.png");
-			background-size: contain;
-			background-position: center;
-			background-repeat: no-repeat;
+			width:  -webkit-calc(100% - 100px);
+			width:     -moz-calc(100% - 100px);
+			width:      -ms-calc(100% - 100px);
+			width:          calc(100% - 100px);
+			height: 100px;
+			margin: 0 auto;
+			margin-top: 50px;
 		}
 		
 		div.groupimg {
@@ -85,6 +88,17 @@
 			padding: 30px;
 		}
 		
+		div.selfie {
+			float: right;
+			width: 33%;
+			max-width: 200px;
+			margin-top: 3px;
+			margin-left: 30px;
+			margin-bottom: 30px;
+			border-radius: 15%;
+			overflow: hidden;
+		}
+		
 		img.contacticon {
 			vertical-align: middle;
 			width: 36px;
@@ -98,13 +112,13 @@
 		}
 		
 		img.selfie {
-			float: right;
-			height: auto;
-			width: 33%;
-			max-width: 230px;
-			margin-top: 3px;
-			margin-left: 30px;
-			margin-bottom: 30px;
+			width: 100%;
+			margin-bottom: -4px;
+		}
+		
+		img.title {
+			width: 100%;
+			height: 100%;
 		}
 		
 		p {
@@ -131,17 +145,12 @@
 		
 		p.dates {
 			float: right;
-			font-style: italic;
+			font-family: baskervilleitalic;
 			padding-left: 20px;
 		}
 		
 		p.employer {
 			font-size: 20px;
-		}
-		
-		p.title {
-			float: left;
-			font-style: italic;
 		}
 		
 		p.sectionheading {
@@ -153,31 +162,55 @@
 			letter-spacing: 4px;
 		}
 		
+		p.title {
+			float: left;
+			font-family: baskervilleitalic;
+		}
+		
 	</style>
 </head>
 
 <body>
 	<div class="header">
 		<div class="headertext">
+			<img class="title" src="title.svg" alt="Samuel Garen Online Résumé" />
 		</div>
 	</div>
 	
 	<div class="section">
 		<div class="imgtextgroup">
 			<p class="sectionheading">About Me</p>
-			<img src="sam.jpg" class="selfie"/>
+			<div class="selfie">
+				<img class="selfie" src="sam.jpg" alt="Photograph of Samuel Garen"/></div>
 			<p>I am a senior project lead based in Portland, Oregon. At my current position with Epiq Global, I lead programs to help individuals recover damages due to large-scale, systematic banking fraud. Since 2015, the projects I lead have helped more than 200,000 individuals and businesses worldwide recover damages of over $&frac14; billion USD.</p>
 			<p>I believe that as designers, leaders, and consumers we have an obligation to produce work and consume products that uphold the highest standards of ethics, sustainability, efficiency, long-term utility, and quality. As everything we do consumes resources, it is incumbent upon us to reduce these demands and to produce the most value for the world from what we do consume. It is my hope that, at least in some small way, my work each day upholds these standards.</p>
 		</div>
 	</div>
+	
 	<div class="section">
-		
 		<p class="sectionheading">Experience</p>
+		
+		<!--<div class="imgtextgroup">
+			<div class="groupimg">
+				<a href="http://www.celestica.com/">
+					<img src="logo_celestica.svg" class="logo" alt="Celestica logo" />
+				</a>
+			</div>
+			<div class="grouptext">
+				<a href="http://www.celestica.com/">
+					<p class="employer">Celestica</p>
+				</a>
+				<p class="title">Project Manager<p>
+				<p class="dates">June 2018&ndash;Present</p>
+				<div style="clear: both;"></div>
+				<p class="text">With Celestica, I have been brought on to assist in a project management capacity as the company is undergoing a major diversification effort, expanding from their core market of electronics manufacturing to a larger overall design and engineering stance.</p>
+			</div>
+		</div>-->
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
 				<a href="http://www.epiqglobal.com">
-					<img src="logo_epiq.png" class="logo">
+					<img src="logo_epiq.svg" class="logo" alt="Epiq logo" />
 				</a>
 			</div>
 			<div class="grouptext">
@@ -185,7 +218,7 @@
 					<p class="employer">Epiq Global</p>
 				</a>
 				<p class="title">Senior Project Lead<p>
-				<p class="dates">March 2018&ndash;Present</p>
+				<p class="dates">March 2018&ndash;June 2018</p>
 				<div style="clear: both;"></div>
 				<p class="title">Project Lead</p>
 				<p class="dates">September 2016&ndash;March 2018</p>
@@ -193,14 +226,14 @@
 				<p class="title">Project Coordinator</p>
 				<p class="dates">October 2015&ndash;September 2016</p>
 				<div style="clear: both;"></div>
-				<p class="text">At Epiq, I lead multiple simultaneous projects to assist with recovery of damages related to banking fraud. Operating under intense regulatory and media scrutiny, these programs have successfully helped more than 200,000 account holders recover funds, while assisting auditors with identifying patterns and potential additional areas of concern. These projects are among the most sophisticated the company handles, each project earning Epiq between $1 million and $10 million annually.</p>
+				<p class="text">At Epiq, I lead multiple simultaneous projects to assist with recovery of damages related to large-scale, systematic banking fraud. Operating under intense regulatory and media scrutiny, these programs have successfully helped more than 200,000 account holders recover over $&frac14; billion, while assisting auditors with identifying patterns and potential additional areas of concern. These projects are among the most sophisticated the company handles, each project earning Epiq between $1 million and $10 million annually.</p>
 			</div>
 		</div>
 		
 		<div class="imgtextgroup">
 			<div class="groupimg">
 				<a href="http://www.portlandgeneral.com">
-					<img src="logo_pge.png" class="logo">
+					<img src="logo_pge.svg" class="logo" alt="Portland General Electric logo" />
 				</a>
 			</div>
 			<div class="grouptext">
@@ -217,7 +250,7 @@
 		<div class="imgtextgroup">
 			<div class="groupimg">
 				<a href="http://www.pdx.edu">
-					<img src="logo_psu.png" class="logo">
+					<img src="logo_psu.svg" class="logo" alt="Portland State University logo" />
 				</a>
 			</div>
 			<div class="grouptext">
@@ -234,7 +267,7 @@
 		<div class="imgtextgroup">
 			<div class="groupimg">
 				<a href="http://greencarcompany.us">
-					<img src="logo_gcc.png" class="logo">
+					<img src="logo_gcc.png" class="logo" alt="Green Car Company logo" />
 				</a>
 			</div>
 			<div class="grouptext">
@@ -249,8 +282,8 @@
 		</div>
 		
 	</div>
+	
 	<div class="section">
-		
 		<p class="sectionheading">Education</p>
 		
 		<div class="imgtextgroup">
@@ -278,30 +311,29 @@
 			<div style="clear: both;"></div>
 			<p class="text">When I left the automotive industry, I knew I was excited about design and manufacturing, but did not have a clear direction. I decided to build my own bachelor's degree by studying design from three angles: civil engineering, architecture, and architectural history. I was honored to have work I produced in all three disciplines preserved in Portland State's archive as future teaching materials, as well as a number of designs used by the Department of Architecture to present to the National Architectural Accrediting Board in their successful arguments for accreditation.</p>
 		</div>
-		
 	</div>
-	<div class="section" style="background-color: #333333;">
-		
+	
+	<div class="section" style="background-color: #444444;">
 		<p class="sectionheading" style="color: white;">Contact</p>
 		
 		<div class="contactcontainer">
 			<p class="contactinfo">
 				<a class="white" href="mailto:sdgaren@gmail.com">
-					<img class="contacticon" src="email.png"/>sdgaren@gmail.com
+					<img class="contacticon" src="email.png" alt="Email button" />sdgaren@gmail.com
 				</a>
 			</p>
 			<p class="contactinfo">
 				<a class="white" href="http://www.linkedin.com/in/sdgaren">
-					<img class="contacticon" src="linkedin.png"/>linkedin.com/in/sdgaren
+					<img class="contacticon" src="linkedin.png" alt="LinkedIn button" />linkedin.com/in/sdgaren
 				</a>
 			</p>
 		</div>
 	</div>
+	
 	<div class="section" style="background-color: #000000">
 		<div class="contactcontainer">
-			<p style="color: white;">Mail icon adapted from "<a class="white" href="https://thenounproject.com/search/?q=mail&i=867234">Mail</a>" by Unlimicon from the Noun Project, and is licensed under Creative Commons Attribution 3.0 Unported (CC 3.0 BY).</p>
+			<p style="color: white; font-size: 12px;">Mail icon adapted from "<a class="white" href="https://thenounproject.com/search/?q=mail&i=867234">Mail</a>" by Unlimicon from the Noun Project, and is licensed under Creative Commons Attribution 3.0 Unported (CC 3.0 BY). Corporate logos copyright their respective organizations.</p>
 		</div>
-		
 	</div>
 </body>
 </html>
