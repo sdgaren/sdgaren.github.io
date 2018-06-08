@@ -185,6 +185,9 @@ p.toc {
 	text-align: left;
 	break-inside: avoid-column;
 	-webkit-column-break-inside: avoid;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
 }
 
 img.iconimage {
