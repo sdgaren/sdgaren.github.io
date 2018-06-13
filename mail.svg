@@ -2,26 +2,17 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="483px" height="303px"
-	 viewBox="64.5 136.5 483 303" enable-background="new 64.5 136.5 483 303" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="259.2px" height="259.2px"
+	 viewBox="-28.72 -66.366 259.2 259.2" enable-background="new -28.72 -66.366 259.2 259.2" xml:space="preserve">
 <g>
 	<title>Canvas 1</title>
-	<g>
-		<title>Layer 1</title>
-		<g>
-			<path fill="#444444" d="M547.5,439.5h-483v-303h483V439.5z M79.5,424.5h453v-273h-453V424.5z"/>
-		</g>
-		<g>
-			<polygon fill="#444444" points="306,351.824 67.155,149.726 76.845,138.274 306,332.176 535.155,138.274 544.845,149.726 			"/>
-		</g>
-		<g>
-			
-				<rect x="150" y="248.222" transform="matrix(0.6441 0.7649 -0.7649 0.6441 331.4296 7.644)" fill="#444444" width="15.001" height="223.555"/>
-		</g>
-		<g>
-			
-				<rect x="342.722" y="352.5" transform="matrix(0.7649 0.6441 -0.6441 0.7649 338.7368 -208.1277)" fill="#444444" width="223.555" height="15.001"/>
-		</g>
-	</g>
+	<title>Layer 1</title>
+</g>
+<g>
+	<polygon fill="#FFFFFF" points="132.125,63.368 195.335,116.596 195.335,9.883 	"/>
+	<polygon fill="#FFFFFF" points="189.908,120.21 127.274,67.472 100.801,89.872 74.331,67.475 11.701,120.21 	"/>
+	<polygon fill="#FFFFFF" points="100.801,81.676 189.925,6.258 11.668,6.258 	"/>
+	<path fill="#FFFFFF" d="M-28.72-66.366v259.2h259.2v-259.2H-28.72z M201.598,126.468H0V0h201.598V126.468z"/>
+	<polygon fill="#FFFFFF" points="69.48,63.371 6.258,9.878 6.258,116.609 	"/>
 </g>
 </svg>
