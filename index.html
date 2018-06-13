@@ -49,6 +49,7 @@
 		div.contactscontainer {
 			display: inline-block;
 			max-width: 800px;
+			margin: 0 auto;
 		}
 		
 		div.contactgroup {
@@ -70,22 +71,15 @@
 			padding-left: 15px;
 		}
 		
-		div.contactssection {
-			text-align: center;
-			background-color: rgba(0,0,0,0.5);
-			padding: 60px 30px 60px 30px;
-		}
-		
-		div.bodysection {
-			background-color: white;
-			padding: 30px 30px 60px 30px;
-			text-align: center;
-		}
-		
 		div.bodytextcontainer {
 			width: 100%;
 			max-width: 800px;
 			margin: 0 auto;
+		}
+		
+		div.section {
+			padding: 60px 30px 60px 30px;
+			text-align: center;
 		}
 		
 		div.selfie {
@@ -104,7 +98,7 @@
 			text-align: left;
 			text-transform: uppercase;
 			letter-spacing: 8px;
-			margin: 60px 30px 0px 30px;
+			margin: 0;
 		}
 		
 		h2 {
@@ -114,8 +108,8 @@
 			font-size: 28px;
 			text-align: left;
 			text-transform: uppercase;
-			letter-spacing: 9px;
-			margin: 0px 30px 60px 30px;
+			letter-spacing: 9.1px;
+			margin: 0;
 		}
 		
 		h3 {
@@ -128,7 +122,7 @@
 		}
 		
 		h3.aboutme {
-			margin: 30px 0px 6px 0px;
+			margin: 0px 0px 6px 0px;
 		}
 		
 		h3.contact {
@@ -143,13 +137,6 @@
 			margin-bottom: -4px;
 		}
 		
-		img.logo {
-			float: right;
-			width: 20%;
-			max-width: 100px;
-			margin: 57px 0px 15px 30px;
-		}
-		
 		img.selfie {
 			width: 100%;
 			margin-bottom: -4px;
@@ -159,11 +146,6 @@
 			width: 100px;
 			margin-top: 50px;
 			opacity: 0.6;
-		}
-		
-		img.title {
-			width: 100%;
-			height: 100%;
 		}
 		
 		p {
@@ -210,10 +192,14 @@
 </head>
 
 <body>
-	<h1>Samuel Garen</h1>
-	<h2>Online Résumé</h2>
+	<div class="section">
+		<div class="bodytextcontainer">
+			<h1>Samuel Garen</h1>
+			<h2>Online Résumé</h2>
+		</div>
+	</div>
 	
-	<div class="bodysection">
+	<div class="section" style="background-color: white;">
 		<div class="bodytextcontainer">
 			
 			<h3 class="aboutme">About Me</h3>
@@ -278,7 +264,7 @@
 		</div>
 	</div>
 	
-	<div class="contactssection">
+	<div class="section" style="background-color: rgba(0,0,0,0.5);">
 		<h3 class="contact">Contact</h3>
 		
 		<div class="contactscontainer">
