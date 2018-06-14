@@ -134,9 +134,21 @@
 			text-align: center;
 		}
 		
-		img.roundrect {
-			width: 100%;
-			margin-bottom: -4px;
+		img.contacticon {
+			width: 36px;
+			height: 36px;
+			border-radius: 15%;
+			float: left;
+			vertical-align: middle;
+		}
+		
+		img.selfie {
+			float: right;
+			width: 33%;
+			max-width: 250px;
+			margin: 0px 0px 15px 30px;
+			border-radius: 15%;
+			overflow: hidden;
 		}
 		
 		img.signature {
@@ -163,6 +175,7 @@
 			color: white;
 			letter-spacing: 2px;
 			margin: 0;
+			vertical-align: middle;
 		}
 		
 		p.employer {
@@ -186,6 +199,11 @@
 			-moz-hyphens: manual;
 			-ms-hyphens: manual;
 		}
+		
+		table, tr, td {
+			margin: 0 auto;
+			padding: 6px;
+		}
 	</style>
 </head>
 
@@ -198,21 +216,12 @@
 	<div class="section" style="background-color: white; box-shadow: 0 0 60px rgba(0,0,0,.5);">
 		
 		<h3 class="aboutme">About Me</h3>
-		<div class="selfie">
-			<img class="roundrect" src="sam.jpg" alt="Photograph of Samuel Garen"/>
-		</div>
+		<img class="selfie" src="sam.jpg" alt="Photograph of Samuel Garen"/>
 		<p>I am a senior project lead based in Portland, Oregon. At my current position with Epiq Global, I lead programs to help individuals recover damages due to large-scale, systematic banking fraud. Since 2015, the projects I lead have helped more than 200,000 individuals and businesses worldwide recover damages of over $&frac14;&nbsp;billion&nbsp;USD.</p>
 		<p style="margin-bottom: 30px;">I believe that as designers, leaders, and consumers we have an obligation to produce work and consume products that uphold the highest standards of ethics, sustainability, efficiency, long-term utility, and quality. As everything we do consumes resources, it is incumbent upon us to reduce these demands and to produce the most value for the world from what we do consume. It is my hope that, at least in some small way, my work each day upholds these standards.</p>
 
 
 		<h3>Experience</h3>
-
-		<!--
-		<a href="http://www.celestica.com/"><img src="logo_celestica.svg" class="logocurrent" alt="Celestica logo" /></a>
-		<a href="http://www.celestica.com/"><p class="employer">Celestica</p></a>
-		<p class="jobtitle">Project Manager&ensp;&#8226;&ensp;July 2018&ndash;Present</p>
-		<p class="text">With Celestica, I have been brought on to assist in a project management capacity as the company is undergoing a major diversification effort, expanding from their core market of electronics manufacturing to a larger overall design and engineering stance.</p>
-		-->
 		
 		<a href="http://www.epiqglobal.com">
 			<p class="employer">Epiq Global</p>
@@ -262,31 +271,34 @@
 	<div class="section">
 		<h3 class="contact">Contact</h3>
 		
-		<div class="contactscontainer">
-			<a href="mailto:sdgaren@gmail.com">
-				<div class="contactgroup">
-					<div class="contacticonimage">
-						<img class="roundrect" src="mail.svg" alt="Mail icon" />
-					</div>
-					<div class="contacticontext">
+		<table>
+			<tr>
+				<td>
+					<a href="mailto:sdgaren@gmail.com">
+						<img class="contacticon" src="mail.svg" alt="Mail icon" />
+					</a>
+				</td>
+				<td>
+					<a href="mailto:sdgaren@gmail.com">
 						<p class="contactinfo">sdgaren@gmail.com</p>
-					</div>
-				</div>
-			</a>
-			
-			<a href="http://www.linkedin.com/in/sdgaren">
-				<div class="contactgroup">
-					<div class="contacticonimage">
-						<img class="roundrect" src="linkedin.svg" alt="LinkedIn icon" />
-					</div>
-					<div class="contacticontext">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="http://www.linkedin.com/in/sdgaren">
+						<img class="contacticon" src="linkedin.svg" alt="LinkedIn icon" />
+					</a>
+				</td>
+				<td>
+					<a href="http://www.linkedin.com/in/sdgaren">
 						<p class="contactinfo">linkedin.com/in/sdgaren</p>
-					</div>
-				</div>
-			</a>
-			
-			<img class="signature" src="signature.svg" alt="Samuel Garen's signature" />
-		</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		
+		<img class="signature" src="signature.svg" alt="Samuel Garen's signature" />
 	</div>
 </body>
 </html>
