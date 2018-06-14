@@ -35,14 +35,6 @@
 			text-decoration: none;
 		}
 		
-		a:link.white, a:visited.white {
-			color: white;
-		}
-		
-		a:hover.white, a:active.white {
-			color: gray;
-		}
-		
 		body {
 			margin: 0;
 			background-image: url("backgroundblur.jpg");
@@ -137,8 +129,8 @@
 		img.contacticon {
 			width: 36px;
 			height: 36px;
+			margin: 6px 0px 6px 0px;
 			border-radius: 15%;
-			float: left;
 			vertical-align: middle;
 		}
 		
@@ -148,7 +140,6 @@
 			max-width: 250px;
 			margin: 0px 0px 15px 30px;
 			border-radius: 15%;
-			overflow: hidden;
 		}
 		
 		img.signature {
@@ -170,12 +161,16 @@
 		
 		p.contactinfo {
 			font-family: futuralt;
+			color: white;
 			text-align: left;
 			text-transform: uppercase;
-			color: white;
 			letter-spacing: 2px;
-			margin: 0;
+			margin: 0px 0px 0px 10px;
 			vertical-align: middle;
+			hyphens: manual;
+			-webkit-hyphens: manual;
+			-moz-hyphens: manual;
+			-ms-hyphens: manual;
 		}
 		
 		p.employer {
@@ -200,9 +195,8 @@
 			-ms-hyphens: manual;
 		}
 		
-		table, tr, td {
+		table {
 			margin: 0 auto;
-			padding: 6px;
 		}
 	</style>
 </head>
@@ -280,7 +274,7 @@
 				</td>
 				<td>
 					<a href="mailto:sdgaren@gmail.com">
-						<p class="contactinfo">sdgaren@gmail.com</p>
+						<p class="contactinfo">sdgaren@&shy;gmail.com</p>
 					</a>
 				</td>
 			</tr>
@@ -292,7 +286,7 @@
 				</td>
 				<td>
 					<a href="http://www.linkedin.com/in/sdgaren">
-						<p class="contactinfo">linkedin.com/in/sdgaren</p>
+						<p class="contactinfo">linkedin.com/&shy;in/&shy;sdgaren</p>
 					</a>
 				</td>
 			</tr>
