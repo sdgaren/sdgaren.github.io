@@ -52,11 +52,10 @@ div.body {
 div.bodywide {
 	width: 90%;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 div.columns {
-	column-count: 3;
+	column-count: 4;
 	column-width: 150px;
 	align: center;
 }
@@ -294,4 +293,73 @@ tr:nth-child(even) {
 tr.header {
 	background-color: white;
 	vertical-align: bottom;
+}
+
+div.cardcontainer {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+div.card {
+	width: 250px;
+	min-height: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 15px;
+	box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-webkit-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-moz-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-ms-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	border-radius: 5px;
+	float: left;
+}
+
+div.carddisabled {
+	width: 250px;
+	min-height: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 15px;
+	box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-webkit-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-moz-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	-ms-box-shadow: 0px 0px 10px 0px #3c3c3a;
+	border-radius: 5px;
+	float: left;
+	opacity: 0.25;
+}
+
+div.cardheader {
+	background-color: #70106d;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+
+div.cardheadernew {
+	padding-top: 6px;
+	padding-bottom: 3px;
+	background-color: #d4af6b;
+}
+
+div.cardbody {
+	padding: 15px;
+}
+
+img.new {
+	width: 60px;
+	height: 60px;
+	
+}
+
+p.cardheader {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0px 5px 0px 5px;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	color: white;
 }
