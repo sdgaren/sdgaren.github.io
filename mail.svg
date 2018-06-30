@@ -3,16 +3,17 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="259.2px" height="259.2px"
-	 viewBox="-28.72 -66.366 259.2 259.2" enable-background="new -28.72 -66.366 259.2 259.2" xml:space="preserve">
+	 viewBox="0 0 259.2 259.2" enable-background="new 0 0 259.2 259.2" xml:space="preserve">
+<rect opacity="0.25" width="259.2" height="259.2"/>
 <g>
 	<title>Canvas 1</title>
 	<title>Layer 1</title>
 </g>
 <g>
-	<polygon fill="#FFFFFF" points="132.125,63.368 195.335,116.596 195.335,9.883 	"/>
-	<polygon fill="#FFFFFF" points="189.908,120.21 127.274,67.472 100.801,89.872 74.331,67.475 11.701,120.21 	"/>
-	<polygon fill="#FFFFFF" points="100.801,81.676 189.925,6.258 11.668,6.258 	"/>
-	<path fill="#FFFFFF" d="M-28.72-66.366v259.2h259.2v-259.2H-28.72z M201.598,126.468H0V0h201.598V126.468z"/>
-	<polygon fill="#FFFFFF" points="69.48,63.371 6.258,9.878 6.258,116.609 	"/>
+	<polygon fill="#FFFFFF" points="160.846,129.734 224.055,182.962 224.055,76.249 	"/>
+	<polygon fill="#FFFFFF" points="218.629,186.577 155.995,133.838 129.521,156.239 103.051,133.841 40.421,186.577 	"/>
+	<polygon fill="#FFFFFF" points="129.521,148.042 218.645,72.624 40.388,72.624 	"/>
+	<path fill="#FFFFFF" d="M0,0v259.201h259.2V0H0z M230.319,192.834H28.72V66.366h201.599V192.834z"/>
+	<polygon fill="#FFFFFF" points="98.2,129.737 34.978,76.244 34.978,182.975 	"/>
 </g>
 </svg>
